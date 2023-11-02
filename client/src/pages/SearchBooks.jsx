@@ -77,7 +77,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const { response } = await saveBook({
+      const { data } = await saveBook({
         variables: { input: bookToSave },
         context: {
           headers: {
@@ -86,7 +86,7 @@ const SearchBooks = () => {
         },
       });
 
-      if (!response.ok) {
+      if (!data) {
         throw new Error('something went wrong!');
       }
 
@@ -136,9 +136,9 @@ const SearchBooks = () => {
               <Col md="4" key={book.bookId}>
                 <Card border='dark'>
                   <a href={book.link} target='_blank' rel='noopener noreferrer'>
-                  {book.image ? (
-                    <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
-                  ) : null}
+                    {book.image ? (
+                      <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
+                    ) : null}
                   </a>
                   <Card.Body>
                     <Card.Title>{book.title}</Card.Title>
