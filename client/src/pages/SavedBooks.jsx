@@ -33,7 +33,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const { response } = await removeBook({
+      const { data } = await removeBook({
         variables: { bookId },
         context: {
           headers: {
@@ -42,7 +42,7 @@ const SavedBooks = () => {
         },
       });
 
-      if (!response.ok) {
+      if (!data) {
         throw new Error('something went wrong!');
       }
 
