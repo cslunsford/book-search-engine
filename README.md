@@ -13,7 +13,7 @@
   To install the project locally, clone this repository and cd into the projects directory in the command line. Run npm install followed by npm run develop and the application will launch in your default browser on localhost.
 
   ## Usage Information
-  To use the site, simply follow the instructions on the UI's Navbar, signup form, and login form.
+  To use the site, visit the webpage [here](https://calm-inlet-40932-ce4898dd1f2a.herokuapp.com/) and simply follow the instructions on the UI's Navbar, signup form, and login form.
 
   ## Screenshots
   ![Screenshot of Login/Signup Modal](screenshots/bse-screenshot-1.png)
