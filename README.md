@@ -16,9 +16,9 @@
   To use the site, simply follow the instructions on the UI's Navbar, signup form, and login form.
 
   ## Screenshots
-  [Screenshot of Login/Signup Modal](screenshots/bse-screenshot-1.png)
-  [Screenshot of Book Search Results](screenshots/bse-screenshot-2.png)
-  [Screenshot of Saved Books](screenshots/bse-screenshot-3.png)
+  ![Screenshot of Login/Signup Modal](screenshots/bse-screenshot-1.png)
+  ![Screenshot of Book Search Results](screenshots/bse-screenshot-2.png)
+  ![Screenshot of Saved Books](screenshots/bse-screenshot-3.png)
 
   ## Questions
   Please direct questions to [https://github.com/cslunsford](https://github.com/cslunsford) at [christopher.lunsford@uconn.edu](christopher.lunsford@uconn.edu).
